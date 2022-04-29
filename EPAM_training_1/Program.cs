@@ -12,7 +12,7 @@ namespace EPAM_training_1
 
 			string b = Console.ReadLine();
 
-		//	string s = new string("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard");
+		//	string s = new string("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsuffm has been the industry's standard");
 
 			for (int i = 0; i < b.Length - 1; i++)
 			{
