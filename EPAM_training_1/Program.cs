@@ -7,7 +7,7 @@ namespace EPAM_training_1
 		static void Main(string[] args)
 		{
 
-			int a = 0;
+			int a = 1;
 			int max = 0;
 
 			string b = Console.ReadLine();
@@ -23,12 +23,12 @@ namespace EPAM_training_1
 
 					if (a > max)
 					{
-						max = a + 1;
+						max = a;
 					}
 				}
 				else
                 {
-					a = 0;
+					a = 1;
                 }
 			}
 			Console.WriteLine(max);
